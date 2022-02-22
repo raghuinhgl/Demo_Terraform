@@ -66,8 +66,8 @@ resource "aws_security_group" "sg" {
       from_port        = 0
       to_port          = 0
       protocol         = "-1"
-      cidr_block       = ["10.0.0.0/16"]
-      ipv6_cidr_blocks = null
+      cidr_block       = ["0.0.0.0/0"]
+      ipv6_cidr_block = null
       prefix_list_ids  = null
       security_groups  = null
       self             = null
@@ -80,8 +80,8 @@ resource "aws_security_group" "sg" {
       from_port        = 0
       to_port          = 0
       protocol         = "-1"
-      cidr_block       = ["10.0.0.0/16"]
-      ipv6_cidr_blocks = null
+      cidr_block       = ["0.0.0.0/0"]
+      ipv6_cidr_block = null
       prefix_list_ids  = null
       security_groups  = null
       self             = null
